@@ -4,7 +4,7 @@ HOW TO RUN ON LOCALLY :
           2 . Open that folder in any code editor (vs code).
           3 . Open terminal ( ctrl + ~ ) on code editor.
           4 . Type this code to get code locally.
-                 git clone   https://github.com/4727yesuraju/crud.git
+                 git clone   https://github.com/jyothsnakannati/20A81A05E8-JYOTHSNADEVIK3.git
           5 . Now move to crud folder (cd crud in terminal)
           6 . Ignore client folder.
           7 . Here crud is root folder.
@@ -12,10 +12,6 @@ HOW TO RUN ON LOCALLY :
                variables and assign value.
              ex : PORT            =  3000             ( commonly any number between 3000 - 8080).
                    CONN_STR  =  your mongodb_connection_string.
-          --- trouble in above process ? : 
-               simply paste this code in .env file .
-          PORT = 5000              
-          CONN_STR =mongodb+srv://4727yesuraju:rough@cluster0.wbclvtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
           9 . After in terminal (in crud folder as root folder) type this command to run server.
                       npm i                        (installing all  dependencies)
                       npm run dev         (to run server)
@@ -35,9 +31,9 @@ route and its functionality :
              url as http://localhost:5000/api/user/create
              pass this json data as a  body as your required value.
             {
-              "username": "jack",
-              "empname": "jack rider",
-              "email": "jack@gmail.com",
+              "username": "josh",
+              "empname": "joshna devi",
+              "email": "joshnadevik@gmail.com",
               "role": "Front End Developer",
               "salary": 60000
             }
